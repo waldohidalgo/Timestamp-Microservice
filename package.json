@@ -1,0 +1,26 @@
+{
+  "name": "timestamp_microservice",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "author": "Waldo Hidalgo",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT"
+}
