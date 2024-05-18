@@ -13,9 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+    "url": "https://github.com/waldohidalgo/Timestamp-Microservice.git"
   },
-  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "homepage": "https://github.com/waldohidalgo/Timestamp-Microservice#readme",
   "author": "Waldo Hidalgo",
   "keywords": [
     "node",
