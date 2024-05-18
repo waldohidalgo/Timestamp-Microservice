@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Timestamp Microservice | freeCodeCamp.org</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/footer/styles.css" />
+  </head>
+
+  <body>
+    <h1>Timestamp Microservice</h1>
+    <hr />
+    <div class="container">
+      <div>
+        <h2>First Example Usage:</h2>
+        <p><a href="api/2015-12-25">[project url]/api/2015-12-25</a></p>
+        <h3>Output:</h3>
+        <p>
+          <code
+            >{"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code
+          >
+        </p>
+      </div>
+      <div>
+        <h2>Second Example Usage:</h2>
+        <p><a href="api/1451001600000">[project url]/api/1451001600000</a></p>
+        <h3>Output:</h3>
+        <p>
+          <code
+            >{"unix":1451001600000,"utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code
+          >
+        </p>
+      </div>
+      <div>
+        <h2>Third Example Usage:</h2>
+        <p><a href="api/asdf">[project url]/api/asdf</a></p>
+        <h3>Output:</h3>
+        <p>
+          <code>{"error":"Invalid Date"}</code>
+        </p>
+      </div>
+    </div>
+
+    <footer class="footer" translate="no">
+      <div class="footer_contenido">
+        <div translate="no" id="footer_tag">Developed by:</div>
+
+        <div class="logo">
+          <a
+            href="https://linktr.ee/waldohidalgo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/images/logo_waldo.png" alt="logo waldo" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
